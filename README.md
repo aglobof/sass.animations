@@ -1,4 +1,4 @@
-sass
+sass-animate
 ====
 
 A Glob of Sass
