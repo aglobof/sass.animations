@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require ('gulp-sass');
 
 gulp.task('sass', function () {
-	gulp.src('animate.scss')
+	gulp.src(['animate.scss', 'keyframes.scss'])
 		.pipe(sass())
 		.pipe(gulp.dest(''));
 });
@@ -11,7 +11,7 @@ gulp.task('default', function () {
 	gulp.run('sass');
 
 	// watch
-	gulp.watch('animate.scss', function () {
+	gulp.watch(['animate.scss', 'keyframes.scss'], function () {
 		gulp.run('sass');
 	});
 

@@ -1,6 +1,41 @@
 .content {
   margin: 5em auto;
-  width: 0; }
+  width: 0;
+  @keyframes :fade-in {
+    0% {
+      opacity: 0; }
+
+    100% {
+      opacity: 1; } }
+
+  @-o-animation :fade-in {
+    0% {
+      opacity: 0; }
+
+    100% {
+      opacity: 1; } }
+
+  @-ms-animation :fade-in {
+    0% {
+      opacity: 0; }
+
+    100% {
+      opacity: 1; } }
+
+  @-moz-animation :fade-in {
+    0% {
+      opacity: 0; }
+
+    100% {
+      opacity: 1; } }
+
+  @-webkit-animation :fade-in {
+    0% {
+      opacity: 0; }
+
+    100% {
+      opacity: 1; } }
+ }
 
 .btn {
   color: white;

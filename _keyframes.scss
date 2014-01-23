@@ -1,8 +1,21 @@
-@mixin keyframes ($my-animation) {
-	@keyframes $my-animation {
-		@content
+//
+// Keyframe Animation Mixin
+//
+
+@mixin keyframes($name) {
+	@keyframes #{$name} {
+		@content;
 	}
-	@-webkit-animation $my-animation {
-		@content
+	@-o-animation #{$name} {
+		@content;
+	}
+	@-ms-animation #{$name} {
+		@content;
+	}
+	@-moz-animation #{$name} {
+		@content;
+	}
+	@-webkit-animation #{$name} {
+		@content;
 	}
 }
