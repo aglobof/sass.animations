@@ -1,5 +1,6 @@
-// position
+@import "keyframes";
 
+// position
 .content {
 	margin: 5em auto;
 	width: 0;
@@ -14,4 +15,8 @@
 	background: #555;
 	border: 0;
 	padding: 10px 20px;
+	@include keyframes("fade-in") {
+		0% { opacity: 0; }
+		100% { opacity: 1; }
+	}
 }

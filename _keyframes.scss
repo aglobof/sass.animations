@@ -1,0 +1,8 @@
+@mixin keyframes ($my-animation) {
+	@keyframes $my-animation {
+		@content
+	}
+	@-webkit-animation $my-animation {
+		@content
+	}
+}
