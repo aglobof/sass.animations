@@ -11,7 +11,7 @@ gulp.task('default', function () {
 	gulp.run('sass');
 
 	// watch
-	gulp.watch(['animate.scss', 'keyframes.scss'], function () {
+	gulp.watch('**.scss', function () {
 		gulp.run('sass');
 	});
 

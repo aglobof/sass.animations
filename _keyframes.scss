@@ -2,20 +2,42 @@
 // Keyframe Animation Mixin
 //
 
-@mixin keyframes($name) {
-	@keyframes #{$name} {
+@mixin animation ($delay, $duration, $animation) {
+	animation-delay: $delay;
+	animation-duration: $duration;
+	animation-name: $animation;
+	animation-fill-mode: both;
+
+	-o-animation-delay: $delay;
+	-o-animation-duration: $duration;
+	-o-animation-name: $animation;
+	-o-animation-fill-mode: both;
+
+	-moz-animation-delay: $delay;
+	-moz-animation-duration: $duration;
+	-moz-animation-name: $animation;
+	-moz-animation-fill-mode: both;
+
+	-webkit-animation-delay: $delay;
+	-webkit-animation-duration: $duration;
+	-webkit-animation-name: $animation;
+	-webkit-animation-fill-mode: both;
+}
+
+@mixin keyframe ($name) {
+	@keyframe #{$name} {
 		@content;
 	}
-	@-o-animation #{$name} {
+	@-o-keyframe #{$name} {
 		@content;
 	}
-	@-ms-animation #{$name} {
+	@-ms-keyframe #{$name} {
 		@content;
 	}
-	@-moz-animation #{$name} {
+	@-moz-keyframe #{$name} {
 		@content;
 	}
-	@-webkit-animation #{$name} {
+	@-webkit-keyframe #{$name} {
 		@content;
 	}
 }
