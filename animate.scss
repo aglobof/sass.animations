@@ -5,6 +5,10 @@
 @import "keyframes";
 
 body {
+	// @inclue animation(0s, 1s, 'anim') {
+	// 	0% { opacity: 0; }
+	// 	100% { opacity: 1; }
+	// }
 	@include keyframe(anim) {
 		0% { opacity: 0; }
 		100% { opacity: 1; }
