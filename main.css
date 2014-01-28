@@ -1,3 +1,31 @@
+@keyframes load-in-slow {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-ms-keyframes load-in-slow {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes load-in-slow {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes load-in-slow {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
 .content {
   margin: 0 auto;
   animation-name: load-in-slow;
