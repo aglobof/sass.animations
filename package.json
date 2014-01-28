@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/aglobof/sass",
   "devDependencies": {
-    "gulp": "~3.3.4",
-    "gulp-sass": "~0.4.0"
+    "gulp": "3.x.x",
+    "gulp-sass": "0.x"
   }
 }
