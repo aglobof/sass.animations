@@ -1,5 +1,4 @@
-sass-animate
-====
+# sass-animate
 
 A Glob of Sass Animations
 
