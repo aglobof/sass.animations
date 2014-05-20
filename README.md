@@ -1,6 +1,8 @@
-# sass-animate
+# Sass Animations
 
-A Glob of Sass Animations
+> A glob of Sass animations.
 
-- `npm install`
-- `gulp`
+## Install
+
+1. `npm install`
+2. `gulp`
