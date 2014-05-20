@@ -7,20 +7,24 @@
 @import "animate";
 
 @include keyframe(load-in-slow) {
-	0% { opacity: 0; }
-	100% { opacity: 1; }
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 // position
 .content {
-	margin: 0 auto;
-	@include animation(load-in-slow, initial, 0.5s, ease-in, 1)
+  margin: 0 auto;
+	@include animation(load-in-slow, initial, 1s, ease-in, 1);
 }
 
 // button
 .btn {
-	color: #fff;
-	background: #555;
-	border: 0;
-	padding: 10px 20px;
+  color: #fff;
+  background: #555;
+  border: 0;
+  padding: 10px 20px;
+}
+
+.active {
+  @include animation(load-in-slow, initial, .5s, ease-in, 1);
 }
