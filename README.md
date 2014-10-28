@@ -11,8 +11,7 @@ bower install aglobof-sass.animations
 Include the partial in your root sass file.
 
 ```scss
-// Sass Mixin Includes
-@include '../lib/to/bower/aglobof-sass.animations/animate'
+@import "bower_components/aglobof-sass.animations/animate";
 ```
  
 Call animations all over the place like a boss
