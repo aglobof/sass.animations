@@ -1,9 +1,10 @@
-// Glob Animation
-// ====================
+// Glob - Keyframe animation mixins
+// ================================
 
 // Keyframe Mixin
+// --------------------------------------------------
 // Adds vendor prefixes to keyframes
-// ====================
+// --------------------------------------------------
 @mixin keyframe ($name) {
   @keyframes #{$name} {
     @content;
@@ -20,8 +21,10 @@
 }
 
 // Animation Mixin
-// ====================
-@mixin animation ($animation, $delay, $duration, $function, $count) {
+// --------------------------------------------------
+// Call your animation and pass some arguments
+// --------------------------------------------------
+@mixin animation ($animation, $delay: 0, $duration, $count: 1, $function) {
   animation-name: $animation;
   animation-delay: $delay;
   animation-duration: $duration;

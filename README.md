@@ -1,9 +1,10 @@
 # sass.animations
-> A glob of Sass animations.
+> A glob of sass animations.
 
 ## Installation
+
 ```
-bower install aglobof-sass.animations
+$ bower install aglobof-sass.animations
 ```
  
 ## Usage
