@@ -9,10 +9,16 @@ $ bower install aglobof-sass.animations
  
 ## Usage
  
-Include the partial in your root sass file.
+Include a partial in your root sass file.
 
 ```scss
-@import "bower_components/aglobof-sass.animations/animate";
+@import "bower_components/aglobof-sass.animations/animation";
+```
+
+Or, glob all the partials
+
+```scss
+@import "bower_components/aglobof-sass.anitmations/glob";
 ```
  
 Call animations all over the place like a boss
