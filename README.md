@@ -3,7 +3,7 @@
 
 ## Installation
 
-```
+```shell
 $ bower install aglobof-sass.animations
 ```
  
