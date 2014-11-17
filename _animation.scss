@@ -22,7 +22,8 @@
 
 // Animation Mixin
 // --------------------------------------------------
-// Call your animation and pass some arguments
+// Call your animation and pass some arguments, use
+// autoprefixer for vendor prefixing.
 // --------------------------------------------------
 @mixin animation ($animation, $duration, $function, $delay: 0, $count: 1) {
   animation-name: $animation;
@@ -30,16 +31,4 @@
   animation-timing-function: $function;
   animation-delay: $delay;
   animation-iteration-count: $count;
-
-  -moz-animation-name: $animation;
-  -moz-animation-duration: $duration;
-  -moz-animation-timing-function: $function;
-  -moz-animation-delay: $delay;
-  -moz-animation-iteration-count: $count;
-
-  -webkit-animation-name: $animation;
-  -webkit-animation-duration: $duration;
-  -webkit-animation-timing-function: $function;
-  -webkit-animation-delay: $delay;
-  -webkit-animation-iteration-count: $count;
 }
