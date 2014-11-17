@@ -1,11 +1,11 @@
 {
   "name": "aglobof-sass.animations",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "homepage": "aglobof.github.io",
   "authors": [
     "Robb Schiller <robbschiller@gmail.com>"
   ],
-  "description": "Mixin partial for sass animations",
+  "description": "Mixin partials for sass animations",
   "keywords": [
     "Sass",
     "Animations"
