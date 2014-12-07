@@ -6,6 +6,5 @@
 // WIP
 // --------------------------------------------------
 @mixin transition ($element, $duration) {
-  -webkit-transition: $element $duration;
   transition: $element $duration;
 }

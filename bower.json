@@ -3,7 +3,8 @@
   "version": "1.0.2",
   "homepage": "aglobof.github.io",
   "authors": [
-    "Robb Schiller <robbschiller@gmail.com>"
+    "Robb Schiller <robbschiller@gmail.com>",
+    "Pedro Carmo <pe@drocarmo.com>"
   ],
   "description": "Mixin partials for sass animations",
   "keywords": [
