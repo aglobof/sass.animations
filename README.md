@@ -30,6 +30,6 @@ Call animations all over the place like a boss
 }
 
 .content {
-  @include animation(load-in-slow, 0, 1s, 1, ease-in-out);
+  @include animation(load-in-slow, 1s, ease-in-out);
 }
 ```
