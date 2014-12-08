@@ -9,15 +9,6 @@
   @keyframes #{$name} {
     @content;
   }
-  @-ms-keyframes #{$name} {
-    @content;
-  }
-  @-moz-keyframes #{$name} {
-    @content;
-  }
-  @-webkit-keyframes #{$name} {
-    @content;
-  }
 }
 
 // Animation Mixin
