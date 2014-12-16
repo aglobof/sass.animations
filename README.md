@@ -18,7 +18,7 @@ Include a partial in your root sass file.
 Or, glob all the partials
 
 ```scss
-@import "bower_components/aglobof-sass.anitmations/glob";
+@import "bower_components/aglobof-sass.animations/glob";
 ```
  
 Call animations all over the place like a boss

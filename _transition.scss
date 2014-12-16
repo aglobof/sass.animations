@@ -3,8 +3,7 @@
 
 // Transition
 // --------------------------------------------------
-// WIP
-// --------------------------------------------------
+
 @mixin transition ($element, $duration) {
   transition: $element $duration;
 }
