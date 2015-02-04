@@ -1,0 +1,23 @@
+{
+  "name": "aglobof-sass.animations",
+  "version": "1.0.2",
+  "description": "a glob of sass animation mixins",
+  "main": "_glob.scss",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aglobof/sass.animations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aglobof/sass.animations/issues"
+  },
+  "keywords": [
+    "sass",
+    "mixin"
+  ],
+  "author": "Robb Schiller <robbschiller@gmail.com>",
+  "license": "MIT"
+ 
+}
