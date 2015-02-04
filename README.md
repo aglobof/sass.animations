@@ -1,10 +1,18 @@
 # sass.animations
-> A glob of sass animations.
+> A glob of sass animation mixins
 
 ## Installation
 
+**via bower**
+
 ```shell
-$ bower install aglobof-sass.animations
+$ bower install aglobof-sass.animations --save-dev
+```
+
+**via npm**
+
+```shell
+$ npm install aglobof-sass.animations --save-dev
 ```
  
 ## Usage
@@ -20,7 +28,9 @@ Or, glob all the partials
 ```scss
 @import "bower_components/aglobof-sass.animations/glob";
 ```
- 
+
+### Animate
+
 Call animations all over the place like a boss
  
 ```scss
@@ -33,3 +43,11 @@ Call animations all over the place like a boss
   @include animation(load-in-slow, 1s, ease-in-out);
 }
 ```
+
+### Transform
+
+TBD
+
+### Translate
+
+TBD
